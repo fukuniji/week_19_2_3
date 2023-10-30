@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>List of posts</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <a href="./index.html" class="task-link">Go to Task 2 &rarr;</a>
+        <h1>Add new post</h1>
+        <div class="form-container">
+            <input
+                class="post-input"
+                type="text"
+                id="titleInput"
+                maxlength="200"
+                placeholder="Title"
+            />
+            <textarea
+                class="post-input"
+                id="bodyInput"
+                rows="5"
+                placeholder="Text"
+                spellcheck="true"
+            ></textarea>
+            <button class="addPostBtn">Create Post</button>
+        </div>
+        <div class="posts-container"></div>
+        <script src="script3.js"></script>
+    </body>
+</html>
